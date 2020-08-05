@@ -46,5 +46,8 @@ namespace CodeWarsKatas
             //2.
             //return new StringBuilder(s.Length * n).Insert(0, s, n).ToString();
         }
+
+
+
     }
 }
