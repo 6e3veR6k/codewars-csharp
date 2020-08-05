@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 
 namespace ConsoleApp3
-{e
+{
     class Program
     {
         static Random random = new Random();
