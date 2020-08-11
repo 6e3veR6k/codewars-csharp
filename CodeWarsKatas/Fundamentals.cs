@@ -60,5 +60,19 @@ namespace CodeWarsKatas
         }
 
 
+        public static List<int> FindMultiples(int integer, int limit)
+        {
+            List<int> result = new List<int>();
+            int multiple = 1;
+            while(multiple * integer <= limit)
+            {
+                result.Add(multiple * integer);
+                multiple++;
+            }
+
+            return result;
+        }
+
+
     }
 }
