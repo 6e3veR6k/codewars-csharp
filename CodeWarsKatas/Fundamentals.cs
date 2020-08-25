@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using System.Text;
 
 namespace CodeWarsKatas
@@ -71,6 +72,11 @@ namespace CodeWarsKatas
             }
 
             return result;
+        }
+
+        public static void SetValue(string value)
+        {
+            Console.Read();
         }
 
 
