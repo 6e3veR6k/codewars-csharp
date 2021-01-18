@@ -25,6 +25,15 @@ namespace Base.Starter
             messageDelegate(z = x++ + y * 5);
             messageDelegate(x = y - x++ * z);
         }
+
+
+        /// <summary>
+        /// mockup function for configuration unit tests
+        /// </summary>
+        /// <param name="a">first argument</param>
+        /// <param name="b">second argument</param>
+        /// <returns>Summ of arguments</returns>
+        public double GetSumm(double a, double b) => a + b;
     }
 
     public delegate void MessageDelegate(int expression);
